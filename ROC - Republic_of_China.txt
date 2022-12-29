@@ -1,0 +1,50 @@
+government = republic
+add_government_reform = chinese_democracy_reform
+government_rank = 1
+technology_group = early_chinese
+religion = confucianism
+add_harmonized_religion = mahayana
+add_harmonized_religion = animism
+primary_culture = chimin
+add_accepted_culture = visayan
+capital = 2155 # Middag
+trade_port = 4352 # Cebu
+
+100.1.1 = { add_government_reform = early_gov_reform_1 }
+230.1.1 = { add_government_reform = early_gov_reform_2 }
+360.1.1 = { add_government_reform = early_gov_reform_3 }
+490.1.1 = { add_government_reform = early_gov_reform_4 }
+620.1.1 = { add_government_reform = early_gov_reform_5 }
+750.1.1 = { add_government_reform = early_gov_reform_6 }
+750.1.1 = { technology_group = chinese }
+
+880.1.1 = { add_government_reform = early_gov_reform_7 }
+1010.1.1 = { add_government_reform = early_gov_reform_8 }
+1140.1.1 = { add_government_reform = early_gov_reform_9 }
+1270.1.1 = { add_government_reform = early_gov_reform_10 }
+
+1444.11.8 = { add_government_reform = early_gov_reform_11 }
+1444.11.9 = { add_government_reform = early_gov_reform_12 }
+1444.11.10 = { add_government_reform = early_gov_reform_13 }
+add_government_reform = chinese_democracy_reform
+add_government_reform = cultural_assimilation_reform
+add_government_reform = idea_adoption_reform
+add_government_reform = republicanism_reform
+add_government_reform = very_frequent_elections_reform
+
+1434.11.11 = {
+	monarch = {
+		name = "Sun"
+		dynasty = "Zhonshan"
+		birth_date = 1366.11.12   
+			culture = chimin
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = intricate_webweaver_personality
+}
+
+1444.11.11 = { leader = {	name = "Cheng Ho"	type = explorer	fire = 2	shock = 2	manuever = 2	siege = 2	death_date = 1486.11.11 } }
+1444.11.11 = { leader = {	name = "Qin Shi Huang"	type = conquistador	fire = 2	shock = 2	manuever = 2	siege = 2	death_date = 1486.11.11 } }
